@@ -1,4 +1,3 @@
+# Repo del grupo 6 de codiGo
 
-# Repo del grupo 6 de codiGo #
-
-Aqui va la descripcion del proyecto
+Aquí va la descripción del proyecto
