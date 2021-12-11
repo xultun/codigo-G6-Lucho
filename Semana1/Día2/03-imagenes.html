@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<!-- viewport es una etiqueta importante, utilizada para responsive, lo verán en css -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Fotos Bootcamp</title>
+</head>
+<body>
+	<header>
+		<h1>Fotos Bootcamp</h1>
+	</header>
+	<main>
+		<div>
+			<!-- utilizar el atributo width no es recomendable, eso deberia darlo el css -->
+			<!-- alt, mostrar texto alternativo en caso la imagen no se pueda encontrar y para personas con visibilidad limitada -->
+			<img 
+				src="./assets/images/galletas.webp"
+				alt="imagen de galletas"
+				width="400"
+				title="galletas"
+			>
+		</div>
+		<hr>
+		<!-- source -->
+		<picture>
+			<!-- media, se basa en el ancho del navegador -->
+			<!-- media queries - diferentes dispositivos-->
+			<!-- tablet o una pc -->
+			<source 
+				media="(min-width:800px)"
+				srcset="./assets/images/pinguinos1.jpg"
+			>
+			<!-- smartphone - móvil -->
+			<img src="assets/images/pinguinos.jfif" alt="pinguinos">
+		</picture>
+	</main>
+</body>
+</html>
