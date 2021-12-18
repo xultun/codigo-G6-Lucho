@@ -28,6 +28,8 @@ footer {
   height: 20vh;
   width: 100vw;
   background-color: #171717;
+  display: flex;
+  flex-direction: column;
 }
 
 svg {
@@ -121,42 +123,60 @@ nav {
 }
 
 .contenedor-caja-busqueda:hover {
-    background-color: #303134;
+  background-color: #303134;
 }
 
 .contenedor-botones {
-    display: flex;
-    flex-direction: row;
-justify-content: center;
-margin-top: 1.75rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 1.75rem;
 }
 
 .search-button {
-    border: 1px solid #303134;
-    border-radius: 4px;
-    color: #e8eaed;
-    background-color: #303134;
-    font-size: 14px;
-    margin: 11px 4px;
-    padding: 0 16px;
-    line-height: 27px;
-    height: 36px;
-    min-width: 54px;
-    text-align: center;
-    cursor: pointer;
-    user-select: none;
+  border: 1px solid #303134;
+  border-radius: 4px;
+  color: #e8eaed;
+  background-color: #303134;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
 }
 .texto-informativo {
-    color: #e8eaed;
-    font-size: small;
+  color: #e8eaed;
+  font-size: small;
 }
-.link-idioma{
-    text-decoration: none;
-    color:#8AB4F7
+.link-idioma {
+  text-decoration: none;
+  color: #8ab4f7;
 }
 
-.contenedor-texto-informativo{
-    display: flex;
-    flex-direction: row;
-justify-content: center;
+.contenedor-texto-informativo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.footer-section-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+.footer-section-2,
+.footer-section-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.anchor-footer{
+    color: #e8eaed;
+    text-decoration: none;
+    margin: 10px 40px;
 }
